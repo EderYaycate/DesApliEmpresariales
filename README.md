@@ -1,1 +1,3 @@
 # DesApliEmpresariales
+
+Este laboratorio parte de una base Django (`config` + app `core`) sobre la cual se construyó una nueva App, `library`, para gestionar el catálogo de una biblioteca. Se investigó la problemática, se capturaron los requisitos funcionales y se diseñó una entidad `Libro` con sus campos correspondientes. La App implementa el patrón MVT completo (Model, View, URL, Template) y un formulario para registrar libros nuevos, usando datos estáticos en memoria (una lista en `models.py`) en lugar de base de datos, para enfocar el ejercicio en cómo un formulario transforma datos en una respuesta.
